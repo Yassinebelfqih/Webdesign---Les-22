@@ -1,0 +1,129 @@
+/* || Banner for contact page*/
+
+/* Background color  */
+
+.fullwidth-bg {
+  background-color: #8f2d56;
+  width: 100%;
+  text-align: center !important;
+  padding-bottom: 29px;
+}
+
+/* H2 color  */
+.conthead {
+  color: white;
+  margin: 0;
+}
+
+/* End Background color  */
+
+/* || Navigatie Menu */
+
+/* Knoppen */
+li {
+  display: inline-block;
+  height: 47px;
+  width: 100px;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  border-left: 2px solid #ffbc42;
+  border-right: 1px solid #ffbc42;
+  background-color: #d81159;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+/* Letters in Knoppen */
+ul a {
+  columns: white;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Hover-Knoppen contact-page*/
+
+#konthover:hover {
+  background-color: #0496ff;
+  border-style: none;
+  list-style-type: none;
+}
+
+/* End Hover-Knoppen contact-page*/
+
+/* || Main tables and bc*/
+
+.work {
+  text-align: center;
+  color: #d81159;
+}
+
+/* || Container */
+.container {
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* Table with cv outlining*/
+
+table {
+  font-family: arial, sans-serif;
+  caption-side: bottom;
+  border-collapse: collapse; /* <-- BELANGRIJK */
+}
+
+/* Table with cv borders & padding*/
+
+table,
+th,
+td {
+  border: 1px solid #495057;
+}
+
+td,
+th {
+  padding: 8px;
+}
+
+/* Table with cv borders colors*/
+
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+.hob {
+  text-align: center;
+  color: #d81159;
+}
+
+.cv {
+  background: #0496ff; /* colouring table row bg*/
+  margin-left: auto; /* Centering the table*/
+  margin-right: auto; /* Centering the table*/
+}
+
+/* Background color cv-page*/
+
+/* || Footer */
+
+.voettekst {
+  background-color: #006ba6;
+  color: white;
+  height: 200px;
+  margin-top: -17px;
+  padding: 8px;
+}
+
+/* || End Footer */
+
+/* || Media query */
+
+/* Container  */
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
